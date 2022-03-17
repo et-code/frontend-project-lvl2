@@ -1,6 +1,6 @@
 {
   "name": "@hexlet/code",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Compares two configuration files and show difference",
   "bin": {
     "gendiff": "bin/gendiff.js"
@@ -21,6 +21,7 @@
   "type": "module",
   "homepage": "https://github.com/et-code/frontend-project-lvl2#readme",
   "dependencies": {
-    "commander": "^9.0.0"
+    "commander": "^9.0.0",
+    "lodash": "^4.17.21"
   }
 }
