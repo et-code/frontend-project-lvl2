@@ -1,9 +1,9 @@
 import fs from 'fs';
 import path from 'path';
 import _ from 'lodash';
-import parse from './src/parse.js';
-import formatData from './src/formatData.js';
-import getDifference from './src/getDifference.js';
+import parse from './parse.js';
+import formatData from './formatData.js';
+import getDifference from './getDifference.js';
 
 const getAbsolutePath = (filepath) => path.resolve(process.cwd(), '__fixtures__/', filepath);
 
